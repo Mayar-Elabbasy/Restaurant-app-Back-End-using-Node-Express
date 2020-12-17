@@ -32,7 +32,7 @@ promoRouter.route('/')
 
 promoRouter.route('/:promoId')
 .get((req,res,next) => {
-    res.end('Will send details of the promotion: ' + req.params.promoId +' to you!');
+    res.end('Will send details of the promotion with ID: ' + req.params.promoId +' to you!');
 })
 .post((req, res, next) => {
     res.statusCode = 403;
