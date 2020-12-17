@@ -1,0 +1,15 @@
+{
+  "name": "restaurant-app-using-node-express",
+  "version": "1.0.0",
+  "description": "Restaurant app (Back-End) using Node Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "Mayar-Elabbasy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
