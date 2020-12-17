@@ -32,7 +32,7 @@ dishRouter.route('/')
 
 dishRouter.route('/:dishId')
 .get((req,res,next) => {
-    res.end('Will send details of the dish: ' + req.params.dishId +' to you!');
+    res.end('Will send details of the dish with ID: ' + req.params.dishId +' to you!');
 })
 .post((req, res, next) => {
     res.statusCode = 403;
